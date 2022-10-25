@@ -1,0 +1,28 @@
+.container {
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 100vw;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-top:0px;
+    }
+    100% { 
+        margin-top:50px;
+    }
+}
+
+@for $i from 1 through 20 {
+    .x#{$i} { 
+        animation: animateBubble ((random($limit: 15) + 4) + s) linear infinite, sideWays (random($limit: 8)+s) ease-in-out infinite alternate;
+    }
+}
+
+
