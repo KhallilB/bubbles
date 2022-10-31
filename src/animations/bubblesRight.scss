@@ -3,7 +3,7 @@
 
 @keyframes animateBubble {
     0% {
-        margin-left: 0px;
+        margin-left: -100px;
     }
     100% {
         margin-left: 100vw;
@@ -19,10 +19,97 @@
     }
 }
 
-@for $i from 1 through 20 {
-    .x#{$i} { 
-        animation: animateBubble ((random($limit: 15) + 4) + s) linear infinite, sideWays (random($limit: 8)+s) ease-in-out infinite alternate;
-    }
+// @for $i from 1 through 20 {
+//     .x#{$i} { 
+//         animation: animateBubble ((random($limit: 15) + 4) + s) linear infinite, sideWays (random($limit: 8)+s) ease-in-out infinite alternate;
+//     }
+// }
+
+.bubble {
+    font-size: 2em;
+    cursor: pointer;
 }
+
+.x1 {
+    animation: animateBubble (6s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x2 {
+    animation: animateBubble (18s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x3 {
+    animation: animateBubble (12s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x4 {
+    animation: animateBubble (22s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x5 {
+    animation: animateBubble (8s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x6 {
+    animation: animateBubble (4s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x7 {
+    animation: animateBubble (22s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x8 {
+    animation: animateBubble (19s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x9 {
+    animation: animateBubble (13s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x10 {
+    animation: animateBubble (5s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x11 {
+    animation: animateBubble (23s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x12 {
+    animation: animateBubble (7s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x13 {
+    animation: animateBubble (13s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x14 {
+    animation: animateBubble (14s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x15 {
+    animation: animateBubble (19s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x16 {
+    animation: animateBubble (25s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x17 {
+    animation: animateBubble (9s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x18 {
+    animation: animateBubble (12s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x19 {
+    animation: animateBubble (14s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+.x20 {
+    animation: animateBubble (8s) linear infinite, sideWays (6s) ease-in-out infinite alternate;
+}
+
+
 
 
